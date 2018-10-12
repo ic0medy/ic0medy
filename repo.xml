@@ -1,12 +1,7 @@
 <repo>
 	<footerlinks>
 		<link>
-			<name>Follow me on Twitter</name>
-			<url>https://twitter.com/reposi3</url>
-			<iconclass>fa fa-twitter</iconclass>
-		</link>
-		<link>
-			<name>Check out our website</name>
+			<name>Check out my website</name>
 			<url>https://icomedy.tk</url>
 			<iconclass>fa fa-thumbs-up</iconclass>
 		</link>
