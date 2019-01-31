@@ -1,4 +1,4 @@
-var NumberOfWords = 28
+var NumberOfWords = 9
 
 var words = new BuildArray(NumberOfWords)
 
