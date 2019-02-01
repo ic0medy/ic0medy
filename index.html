@@ -1,271 +1,539 @@
-<!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>webcomedy.tk: Free accounts and more!</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
 
-        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+    <title>webcomedy.tk - Free account generator!</title>
 
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="assets/css/zabuto_calendar.css">
+    <link rel="stylesheet" type="text/css" href="assets/js/gritter/css/jquery.gritter.css" />
+    <link rel="stylesheet" type="text/css" href="assets/lineicons/style.css">    
+    
+    <!-- Custom styles for this template -->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-responsive.css" rel="stylesheet">
 
-        <!--For Plugins external css-->
-        <link rel="stylesheet" href="assets/css/plugins.css" />
-        <link rel="stylesheet" href="assets/css/lora-web-font.css" />
-        <link rel="stylesheet" href="assets/css/opensans-web-font.css" />
-        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <script src="assets/js/chart-master/Chart.js"></script>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-        <!--Theme custom css -->
-        <link rel="stylesheet" href="assets/css/style.css">
+  <body>
 
-        <!--Theme Responsive css-->
-        <link rel="stylesheet" href="assets/css/responsive.css" />
-
-        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    </head>
-    <body data-spy="scroll" data-target="#main_navbar">
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
-        <nav class="navbar navbar-default navbar-fixed-top" id="main_navbar">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
-
-        <!--Home page style-->
-        <header id="home" class="home">
-            <div class="overlay">
-                <div class="container">
-                    <div class="row">
-                        <div class="home-wrapper">
-                            <div class="col-md-12 col-sm-12 col-xs-12">
-                                <div class="home-content text-center">
-                                    <h1>webcomedy.tk: Free accounts and more!</h1>
-                                    <h4>Free accounts! With the click of a button you get a random account from our database. (Please read the About section down below.) </h4>
-								</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+  <section id="container" >
+      <!-- **********************************************************************************************************************************************************
+      TOP BAR CONTENT & NOTIFICATIONS
+      *********************************************************************************************************************************************************** -->
+      <!--header start-->
+      <header class="header black-bg">
+              <div class="sidebar-toggle-box">
+                  <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+              </div>
+            <!--logo start-->
+            <a href="index.html" class="logo"><b>webcomedy.tk - Free account generator!</b></a>
+            <!--logo end-->
+            <div class="nav notify-row" id="top_menu">
+                <!--  notification start -->
+                <ul class="nav top-menu">
+                    <!-- inbox dropdown start-->
+                </ul>
+                <!--  notification end -->
             </div>
         </header>
+      <!--header end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN SIDEBAR MENU
+      *********************************************************************************************************************************************************** -->
+      <!--sidebar start-->
+      <aside>
+          <div id="sidebar"  class="nav-collapse ">
+              <!-- sidebar menu start-->
+              <ul class="sidebar-menu" id="nav-accordion">
+              
+              	  <p class="centered"><a href="index.html"><img src="assets/img/robot.png" class="img-circle" width="60"></a></p>
+              	  <h5 class="centered">Hello, User.</h5>
+              	  	
+                  <li class="mt">
+                      <a class="active" href="index.html">
+                          <i class="fa fa-dashboard"></i>
+                          <span>Dashboard</span>
+                      </a>
+                  </li>
 
-        <!-- Sections -->
-        <section id="service" class="service sections">
-            <div class="container">
-                <div class="heading text-center">
-                    <h1>About</h1>
-                    <div class="separator"></div>
-                </div>
-                <!-- Example row of columns -->
-                <div class="row">
-                    <div class="wrapper">
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="service-item text-center">
-                                <h5>Free accounts</h5>
-                                <div class="separator2"></div>
-                                <p> When you generate an account you get a link. This link will take you to a ghostbin document. This document has a email and password to a fortnite account. These accounts are unchecked and we have know idea what cosmetics are on them. <p/>
-                            </div>
-                        </div> 
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-desktop"></i>
+                          <span>UI Elements</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="general.html">General</a></li>
+                          <li><a  href="buttons.html">Buttons</a></li>
+                          <li><a  href="panels.html">Panels</a></li>
+                      </ul>
+                  </li>
 
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="service-item text-center">
-                                <h5>Types of accounts</h5>
-                                <div class="separator2"></div>
-                                <p>Fortnite accounts is the only type of account we generate. More services coming soon!</p>
-                            </div>
-                        </div> 
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-cogs"></i>
+                          <span>Components</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="calendar.html">Calendar</a></li>
+                          <li><a  href="gallery.html">Gallery</a></li>
+                          <li><a  href="todo_list.html">Todo List</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-book"></i>
+                          <span>Extra Pages</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="blank.html">Blank Page</a></li>
+                          <li><a  href="login.html">Login</a></li>
+                          <li><a  href="lock_screen.html">Lock Screen</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-tasks"></i>
+                          <span>Forms</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="form_component.html">Form Components</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class="fa fa-th"></i>
+                          <span>Data Tables</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="basic_table.html">Basic Table</a></li>
+                          <li><a  href="responsive_table.html">Responsive Table</a></li>
+                      </ul>
+                  </li>
+                  <li class="sub-menu">
+                      <a href="javascript:;" >
+                          <i class=" fa fa-bar-chart-o"></i>
+                          <span>Charts</span>
+                      </a>
+                      <ul class="sub">
+                          <li><a  href="morris.html">Morris</a></li>
+                          <li><a  href="chartjs.html">Chartjs</a></li>
+                      </ul>
+                  </li>
 
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="service-item text-center">
-                                <h5>Premium</h5>
-                                <div class="separator2"></div>
-                                <p>For $5 lifetime you can unlock premium. With premium the accounts you generate are guaranteed to have atleast 10 skins!</p>
-                                <a href="/premium/premium.html">Click here to buy premium.</a>
+              </ul>
+              <!-- sidebar menu end-->
+          </div>
+      </aside>
+      <!--sidebar end-->
+      
+      <!-- **********************************************************************************************************************************************************
+      MAIN CONTENT
+      *********************************************************************************************************************************************************** -->
+      <!--main content start-->
+      <section id="main-content">
+          <section class="wrapper">
+
+              <div class="row">
+                  <div class="col-lg-9 main-chart">
+                  
+                  	<div class="row mtbox">
+                  		<div class="col-md-2 col-sm-2 col-md-offset-1 box0">
+                  			<div class="box1">
+					  			<span class="li_heart"></span>
+					  			<h3>Over 100 Accounts generated!</h3>
+                  			</div>
+					  			<p>933 People liked your page the last 24hs. Whoohoo!</p>
+                  		</div>
+                  		<div class="col-md-2 col-sm-2 box0">
+                  			<div class="box1">
+					  			<span class="li_cloud"></span>
+					  			<h3>+48</h3>
+                  			</div>
+					  			<p>48 New files were added in your cloud storage.</p>
+                  		</div>
+                  		<div class="col-md-2 col-sm-2 box0">
+                  			<div class="box1">
+					  			<span class="li_stack"></span>
+					  			<h3>0 Spotify Accounts.</h3>
+                  			</div>
+					  			<p>This means there are 0 Spotify accounts left to be given. This number updates every hour and we restock accounts once a day.</p>
+                  		</div>
+                  		<div class="col-md-2 col-sm-2 box0">
+                  			<div class="box1">
+					  			<span class="li_news"></span>
+					  			<h3>27 Fortnite Accounts.</h3>
+                  			</div>
+					  			<p>This means there are 27 Fortnite accounts left to be given. This number updates every hour and we restock accounts once a day.</p>
+                  		</div>
+                  		<div class="col-md-2 col-sm-2 box0">
+                  			<div class="box1">
+					  			<span class="li_data"></span>
+					  			<h3>Server Online.</h3>
+                  			</div>
+					  			<p>The server is working perfectly. Relax & enjoy.</p>
+                  		</div>
+                  	
+                  	</div><!-- /row mt -->	
+                  
+                      
+                      <div class="row mt">
+                      <!-- SERVER STATUS PANELS -->
+                      	<div class="col-md-4 col-sm-4 mb">
+                      		<div class="white-panel pn donut-chart">
+                      			<div class="white-header">
+						  			<h5>SERVER LOAD</h5>
+                      			</div>
+								<div class="row">
+									<div class="col-sm-6 col-xs-6 goleft">
+										<p><i class="fa fa-database"></i> 70%</p>
+									</div>
+	                      		</div>
+								<canvas id="serverstatus01" height="120" width="120"></canvas>
+								<script>
+									var doughnutData = [
+											{
+												value: 70,
+												color:"#68dff0"
+											},
+											{
+												value : 30,
+												color : "#fdfdfd"
+											}
+										];
+										var myDoughnut = new Chart(document.getElementById("serverstatus01").getContext("2d")).Doughnut(doughnutData);
+								</script>
+	                      	</div><! --/grey-panel -->
+                      	</div><!-- /col-md-4-->
+                      	
+
+                      	<div class="col-md-4 col-sm-4 mb">
+                      		<div class="white-panel pn">
+                      			<div class="white-header">
+						  			<h5>TOP PRODUCT</h5>
+                      			</div>
+								<div class="row">
+									<div class="col-sm-6 col-xs-6 goleft">
+										<p><i class="fa fa-heart"></i> 122</p>
+									</div>
+									<div class="col-sm-6 col-xs-6"></div>
+	                      		</div>
+	                      		<div class="centered">
+										<img src="assets/img/product.png" width="120">
+	                      		</div>
+                      		</div>
+                      	</div><!-- /col-md-4 -->
+                      	
+						<div class="col-md-4 mb">
+							<!-- WHITE PANEL - TOP USER -->
+							<div class="white-panel pn">
+								<div class="white-header">
+									<h5>TOP USER</h5>
+								</div>
+								<p><img src="assets/img/ui-zac.jpg" class="img-circle" width="80"></p>
+								<p><b>Zac Snider</b></p>
+								<div class="row">
+									<div class="col-md-6">
+										<p class="small mt">MEMBER SINCE</p>
+										<p>2012</p>
+									</div>
+									<div class="col-md-6">
+										<p class="small mt">TOTAL SPEND</p>
+										<p>$ 47,60</p>
+									</div>
+								</div>
 							</div>
-                        </div> 
+						</div><!-- /col-md-4 -->
+                      	
 
-                        <div class="col-md-3 col-sm-6 col-xs-12">
-                            <div class="service-item text-center">
-                                <h5>Why does the generator give me a shortearn link?</h5>
-                                <div class="separator2"></div>
-                                <p>Why does the generator give me a shortearn link? We do this so we can help give you free accounts. When you go to the shortearn link given to you, just wait till the time is up, and then it gives you a link to ghostbin. There is no survey or human verification. We use this link to make money to help restock accounts and keep are website up. </p>
-                            </div>
-                        </div> 
+                    </div><!-- /row -->
+                    
+                    				
+					<div class="row">
+						<!-- TWITTER PANEL -->
+						<div class="col-md-4 mb">
+                      		<div class="darkblue-panel pn">
+                      			<div class="darkblue-header">
+						  			<h5>DROPBOX STATICS</h5>
+                      			</div>
+								<canvas id="serverstatus02" height="120" width="120"></canvas>
+								<script>
+									var doughnutData = [
+											{
+												value: 60,
+												color:"#68dff0"
+											},
+											{
+												value : 40,
+												color : "#444c57"
+											}
+										];
+										var myDoughnut = new Chart(document.getElementById("serverstatus02").getContext("2d")).Doughnut(doughnutData);
+								</script>
+								<p>April 17, 2014</p>
+								<footer>
+									<div class="pull-left">
+										<h5><i class="fa fa-hdd-o"></i> 17 GB</h5>
+									</div>
+									<div class="pull-right">
+										<h5>60% Used</h5>
+									</div>
+								</footer>
+                      		</div><! -- /darkblue panel -->
+						</div><!-- /col-md-4 -->
+						
+						
+						<div class="col-md-4 mb">
+							<!-- INSTAGRAM PANEL -->
+							<div class="instagram-panel pn">
+								<i class="fa fa-instagram fa-4x"></i>
+								<p>@THISISYOU<br/>
+									5 min. ago
+								</p>
+								<p><i class="fa fa-comment"></i> 18 | <i class="fa fa-heart"></i> 49</p>
+							</div>
+						</div><!-- /col-md-4 -->
+						
+						<div class="col-md-4 col-sm-4 mb">
+							<!-- REVENUE PANEL -->
+							<div class="darkblue-panel pn">
+								<div class="darkblue-header">
+									<h5>REVENUE</h5>
+								</div>
+								<div class="chart mt">
+									<div class="sparkline" data-type="line" data-resize="true" data-height="75" data-width="90%" data-line-width="1" data-line-color="#fff" data-spot-color="#fff" data-fill-color="" data-highlight-line-color="#fff" data-spot-radius="4" data-data="[200,135,667,333,526,996,564,123,890,464,655]"></div>
+								</div>
+								<p class="mt"><b>$ 17,980</b><br/>Month Income</p>
+							</div>
+						</div><!-- /col-md-4 -->
+						
+					</div><!-- /row -->
+					
+					<div class="row mt">
+                      <!--CUSTOM CHART START -->
+                      <div class="border-head">
+                          <h3>VISITS</h3>
+                      </div>
+                      <div class="custom-bar-chart">
+                          <ul class="y-axis">
+                              <li><span>10.000</span></li>
+                              <li><span>8.000</span></li>
+                              <li><span>6.000</span></li>
+                              <li><span>4.000</span></li>
+                              <li><span>2.000</span></li>
+                              <li><span>0</span></li>
+                          </ul>
+                          <div class="bar">
+                              <div class="title">JAN</div>
+                              <div class="value tooltips" data-original-title="8.500" data-toggle="tooltip" data-placement="top">85%</div>
+                          </div>
+                          <div class="bar ">
+                              <div class="title">FEB</div>
+                              <div class="value tooltips" data-original-title="5.000" data-toggle="tooltip" data-placement="top">50%</div>
+                          </div>
+                          <div class="bar ">
+                              <div class="title">MAR</div>
+                              <div class="value tooltips" data-original-title="6.000" data-toggle="tooltip" data-placement="top">60%</div>
+                          </div>
+                          <div class="bar ">
+                              <div class="title">APR</div>
+                              <div class="value tooltips" data-original-title="4.500" data-toggle="tooltip" data-placement="top">45%</div>
+                          </div>
+                          <div class="bar">
+                              <div class="title">MAY</div>
+                              <div class="value tooltips" data-original-title="3.200" data-toggle="tooltip" data-placement="top">32%</div>
+                          </div>
+                          <div class="bar ">
+                              <div class="title">JUN</div>
+                              <div class="value tooltips" data-original-title="6.200" data-toggle="tooltip" data-placement="top">62%</div>
+                          </div>
+                          <div class="bar">
+                              <div class="title">JUL</div>
+                              <div class="value tooltips" data-original-title="7.500" data-toggle="tooltip" data-placement="top">75%</div>
+                          </div>
+                      </div>
+                      <!--custom chart end-->
+					</div><!-- /row -->	
+					
+                  </div><!-- /col-lg-9 END SECTION MIDDLE -->
+                  
+                  
+      <!-- **********************************************************************************************************************************************************
+      RIGHT SIDEBAR CONTENT
+      *********************************************************************************************************************************************************** -->                  
+                  
+                  <div class="col-lg-3 ds">
+                    <!--COMPLETED ACTIONS DONUTS CHART-->
+						<h3>NEWS/UPDATES</h3>
+                                        
+                      <!-- First Action -->
+                      <div class="desc">
+                      	<div class="thumb">
+                      		<span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                      	</div>
+                      	<div class="details">
+                      		<p><muted>2/1/19</muted><br/>
+                      		   Admin updated website.<br/>
+                      		</p>
+                      	</div>
+                      </div>
+                      <!-- Second Action -->
+                      <div class="desc">
+                      	<div class="thumb">
+                      		<span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                      	</div>
+                      	<div class="details">
+                      		<p><muted>1/30/19</muted><br/>
+                      		   Accounts restocked by Admin.<br/>
+                      		</p>
+                      	</div>
+                      </div>
+                      <!-- Third Action -->
+                      <div class="desc">
+                      	<div class="thumb">
+                      		<span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                      	</div>
+                      	<div class="details">
+                      		<p><muted>1/29/19</muted><br/>
+                      		   Initial release. Welcome to webcomedy.tk!<br/>
+                      		</p>
+                      	</div>
+                      </div>
 
-                    </div>
-                </div>
-            </div> <!-- /container -->       
-        </section>
+                       <!-- USERS ONLINE SECTION -->
+						<h3>Staff</h3>
+                      <!-- First Member -->
+                      <div class="desc">
+                      	<div class="thumb">
+                      		<img class="img-circle" src="assets/img/images.jpg" width="35px" height="35px" align="">
+                      	</div>
+                      	<div class="details">
+                      		<p>Toxic (OWNER)<br/>
+                      		   <muted>Offline. Talk to me on discord: Toxic#3631 or on Instagram @sqlmao.</muted>
+                      		</p>
+                      	</div>
+                      </div>
+                      <!-- Second Member -->
+                      <div class="desc">
+                      	<div class="thumb">
+                      		<img class="img-circle" src="assets/img/rudy.png" width="35px" height="35px" align="">
+                      	</div>
+                      	<div class="details">
+                      		<p>TheLegend27 (ADMIN)</a><br/>
+                      		   <muted>Offline.</muted>
+                      		</p>
+                      	</div>
+                      </div                      
+                  </div><!-- /col-lg-3 -->
+              </div><! --/row -->
+          </section>
+      </section>
+
+      <!--main content end-->
+      <!--footer start-->
+      <footer class="site-footer">
+          <div class="text-center">
+              2019. webcomedy.tk.
+              <a href="index.html#" class="go-top">
+                  <i class="fa fa-angle-up"></i>
+              </a>
+          </div>
+      </footer>
+      <!--footer end-->
+  </section>
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery-1.8.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="assets/js/jquery.sparkline.js"></script>
 
 
-        <section id="portfolio" class="portfolio lightbg sections">
-            <div class="container">
-                <div class="heading text-center">
-                    <h1>Fortnite generator</h1>
-                    <div class="separator"></div>
-                </div>
-                <div class="row">
-                    <div class="main_portfolio whitebackground">
-                        <div class="portffolio_content text-center">
-                            <div class="portffolio_menu">
-                            </div>
+    <!--common script for all pages-->
+    <script src="assets/js/common-scripts.js"></script>
+    
+    <script type="text/javascript" src="assets/js/gritter/js/jquery.gritter.js"></script>
+    <script type="text/javascript" src="assets/js/gritter-conf.js"></script>
 
-                            <div class="portffolio_content_deteals">
-                                <div class="portfolio-one">
+    <!--script for this page-->
+    <script src="assets/js/sparkline-chart.js"></script>    
+	<script src="assets/js/zabuto_calendar.js"></script>	
+	
+	<script type="text/javascript">
+        $(document).ready(function () {
+        var unique_id = $.gritter.add({
+            // (string | mandatory) the heading of the notification
+            title: 'Welcome to webcomedy.tk - Free account generator!',
+            // (string | mandatory) the text inside the notification
+            text: 'Welcome to webcomedy.tk - Free account generator! With the click of a button you get a link that takes you to the information of your account. We will always be free but we do have a premium service that guarantees a skin. <a href="http://blacktie.co" target="_blank" style="color:#ffd777">Click here to buy premium</a>.',
+            // (string | optional) the image to display on the left
+            image: 'assets/img/robot.png',
+            // (bool | optional) if you want it to fade out on its own or just sit there
+            sticky: true,
+            // (int | optional) the time you want it to be alive for before fading out
+            time: '',
+            // (string | optional) the class name you want to apply to that specific message
+            class_name: 'my-sticky-class'
+        });
 
-                                    <div class="col-sm-4 col-xs-12 portfolio-item transition metal " data-category="transition">
-                                        <div class="single_portfolio_img">
-                                            <a class="portfolio-img" href="assets/images/portfolio/download.jpg"><img src="assets/images/portfolio/download.jpg" alt="" /></a>
-										
-<h1>Fortnite Account Generator</h1>
+        return false;
+        });
+	</script>
+	
+	<script type="application/javascript">
+        $(document).ready(function () {
+            $("#date-popover").popover({html: true, trigger: "manual"});
+            $("#date-popover").hide();
+            $("#date-popover").click(function (e) {
+                $(this).hide();
+            });
+        
+            $("#my-calendar").zabuto_calendar({
+                action: function () {
+                    return myDateFunction(this.id, false);
+                },
+                action_nav: function () {
+                    return myNavFunction(this.id);
+                },
+                ajax: {
+                    url: "show_data.php?action=1",
+                    modal: true
+                },
+                legend: [
+                    {type: "text", label: "Special event", badge: "00"},
+                    {type: "block", label: "Regular event", }
+                ]
+            });
+        });
+        
+        
+        function myNavFunction(id) {
+            $("#date-popover").hide();
+            var nav = $("#" + id).data("navigation");
+            var to = $("#" + id).data("to");
+            console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
+        }
+    </script>
+  
 
-<FORM NAME="WordForm">  
-<INPUT TYPE=TEXT NAME="WordBox" id="wordbox"><BR>
-<INPUT TYPE=BUTTON VALUE="Generate" onClick="PickRandomWord(document.WordForm);" id="button">
-<script src="javascript.js"></script>
-
-</FORM>
-										
-										</div>
-
-                                    </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section><!-- End of portfolio-one Section -->
-
-       
-
-        <!-- Sections -->
-        <section id="testimonial" class="testimonial lightbg sections">
-            <div class="container">
-                <div class="heading text-center">
-                    <h1>News</h1>
-                    <div class="separator"></div>
-                </div>
-                <!-- Example row of columns -->
-                <div class="row">
-                    <div class="col-md-12" data-wow-delay="0.2s">
-                        <div class="carousel slide" data-ride="carousel" id="quote-carousel">
-                            <!-- Bottom Carousel Indicators -->
-                            <!-- Carousel Slides / Quotes -->
-                            <div class="carousel-inner text-center margin-top-60">
-
-                                <!-- Quote 1 -->
-                                <div class="item active">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-sm-offset-3 details">
-                                            <p>Welcome to icomedy.tk! Using our website you can generate as many accounts as you like! Our website is new so if there is any problems or bugs please report them to icomedytk@gmail.com.</p>
-                                            <small>-Admin <a href="#"></a></small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Quote 2 -->
-                                <div class="item">
-                                    <div class="row">
-                                        <div class="col-sm-6 col-sm-offset-3 details">
-
-                                            <p>We sell our tool to generate our accounts. Comes with Fortnite, Netflix, Spotify, VPN, Steam,and Minecraft accounts to be generated. Please contact icomedytk@gmail.com if interested.</p>
-                                            <small>-Admin <a href="#"></a></small>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Quote 3 -->
-                            </div>
-
-                            <!-- Carousel Buttons Next/Prev -->
-                            <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
-                            <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div> <!-- /container -->       
-        </section>
-
-        <!-- Sections -->
-        <section id="contact" class="contact">
-            <div class="container">
-                <!-- Example row of columns -->
-                <div class="row">
-
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-                        <div class="contact-top">
-                            <h1>Contact Us</h1>
-                        </div>
-
-                        <div class="contact-left-info">
-                            <h5>Email Us</h5>
-                            <p>icomedytk@gmail.com</p>
-                        </div>
-                    </div>
-                            </form>
-                        </div>
-                    </div>
-
-                </div>
-            </div> <!-- /container -->       
-        </section>
-
-
-
-        <!--Footer-->
-        <footer id="footer" class="footer">
-            <div class="container">
-
-                <div class="scroll-top">
-
-                    <div class="scrollup">
-                        <i class="fa fa-angle-up"></i>
-                    </div>
-
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                        <div class="copyright">
-                            <p>&copy; 2018 All Rights Reserved.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6 col-sm-6 col-xs-12">
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-
-        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-        <script src="assets/js/vendor/bootstrap.min.js"></script>
-        <script src="assets/js/vendor/isotope.min.js"></script>
-        <script src="assets/js/plugins.js"></script>
-         <script src="assets/js/jquery.magnific-popup.js"></script>
-        <script src="assets/js/main.js"></script>
-    </body>
+  </body>
 </html>
